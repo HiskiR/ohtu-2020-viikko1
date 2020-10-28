@@ -12,7 +12,7 @@ public class Varasto {
             this.tilavuus = tilavuus;
         } else // virheellinen, nollataan
         {
-            this.tilavuus = 0.0;  // => käyttökelvoton varasto
+            this.tilavuus = 1.0;  // => käyttökelvoton varasto
         }
         saldo = 0;     // oletus: varasto on tyhjä
     }
